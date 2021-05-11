@@ -1,15 +1,13 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (GUI.vcxproj, Lesson03.vcxproj, Lesson04.vcxproj, Lesson05.vcxproj, Lesson06.vcxproj, Lesson07.vcxproj, Lesson08-GUI.vcxproj, Lesson08.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Demo.cpp
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(82,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(290,45): warning C4244: 'argument': conversion from 'unsigned int' to 'GLfloat', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(346,13): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(351,17): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(430,22): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(433,22): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(436,22): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(439,22): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(626,45): warning C4244: 'argument': conversion from 'unsigned int' to 'GLfloat', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(679,24): warning C4838: conversion from 'FT_Pos' to 'GLuint' requires a narrowing conversion
-  Game.cpp
-  Generating Code...
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(80,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(283,45): warning C4244: 'argument': conversion from 'unsigned int' to 'GLfloat', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(332,13): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(336,17): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(408,22): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(411,22): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(414,22): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(417,22): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(590,45): warning C4244: 'argument': conversion from 'unsigned int' to 'GLfloat', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(643,24): warning C4838: conversion from 'FT_Pos' to 'GLuint' requires a narrowing conversion
   Snake Game.vcxproj -> D:\Kuliah\Snake Game\vs\Snake Game\Debug\Snake Game.exe

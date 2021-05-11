@@ -85,7 +85,6 @@ void Engine::Game::Start(string windowTitle, unsigned int screenWidth, unsigned 
 			SDL_DestroyWindow(window);
 			renderGame();
 		}
-		
 		SDL_GL_SwapWindow(window);
 		LimitFPS();
 		PrintFPS();

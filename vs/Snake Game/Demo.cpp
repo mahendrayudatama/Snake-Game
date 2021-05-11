@@ -161,13 +161,13 @@ void Demo::gameOver(SDL_Renderer* renderer, SDL_Event event, int scale, int wSca
 			if (event.key.keysym.scancode == SDL_SCANCODE_RETURN) {
 				return;
 			}
+
 			if (event.key.keysym.scancode == SDL_SCANCODE_ESCAPE)
 			{
 				SDL_DestroyWindow(window);
 				Engine::Game& game = Demo();
 				game.Start("Snake Menu", 576, 576, true, WindowFlag::WINDOWED, 60, 1);
 				status = false;
-
 			}
 
 		}
@@ -284,6 +284,9 @@ void Demo::renderA() {
 }
 
 void Demo::renderGame() {
+
+	tailLength = 0;
+
 	if (TTF_Init() < 0) {
 		cout << "Error: " << TTF_GetError() << endl;
 	}
