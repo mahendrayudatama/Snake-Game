@@ -1,61 +1,15 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (GUI.vcxproj, Lesson03.vcxproj, Lesson04.vcxproj, Lesson05.vcxproj, Lesson06.vcxproj, Lesson07.vcxproj, Lesson08-GUI.vcxproj, Lesson08.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Demo.cpp
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(83,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(291,45): warning C4244: 'argument': conversion from 'unsigned int' to 'GLfloat', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(347,13): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(352,17): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(431,22): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(434,22): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(437,22): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(440,22): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(627,45): warning C4244: 'argument': conversion from 'unsigned int' to 'GLfloat', possible loss of data
-D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(680,24): warning C4838: conversion from 'FT_Pos' to 'GLuint' requires a narrowing conversion
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(82,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(290,45): warning C4244: 'argument': conversion from 'unsigned int' to 'GLfloat', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(346,13): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(351,17): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(430,22): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(433,22): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(436,22): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(439,22): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(626,45): warning C4244: 'argument': conversion from 'unsigned int' to 'GLfloat', possible loss of data
+D:\Kuliah\Snake Game\vs\Snake Game\Demo.cpp(679,24): warning C4838: conversion from 'FT_Pos' to 'GLuint' requires a narrowing conversion
   Game.cpp
   Generating Code...
-Demo.obj : error LNK2019: unresolved external symbol _SOIL_load_image referenced in function "private: void __thiscall Demo::InitButton(void)" (?InitButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol _SOIL_free_image_data referenced in function "private: void __thiscall Demo::InitButton(void)" (?InitButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__FT_Init_FreeType referenced in function "private: void __thiscall Demo::InitText(void)" (?InitText@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__FT_Done_FreeType referenced in function "private: void __thiscall Demo::InitText(void)" (?InitText@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__FT_New_Face referenced in function "private: void __thiscall Demo::InitText(void)" (?InitText@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__FT_Done_Face referenced in function "private: void __thiscall Demo::InitText(void)" (?InitText@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__FT_Set_Pixel_Sizes referenced in function "private: void __thiscall Demo::InitText(void)" (?InitText@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__FT_Load_Char referenced in function "private: void __thiscall Demo::InitText(void)" (?InitText@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__glBindTexture@8 referenced in function "private: void __thiscall Demo::InitButton(void)" (?InitButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__glBlendFunc@8 referenced in function "private: void __thiscall Demo::RenderButton(void)" (?RenderButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__glClear@4 referenced in function "public: virtual void __thiscall Demo::Render(void)" (?Render@Demo@@UAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__glClearColor@16 referenced in function "public: virtual void __thiscall Demo::Render(void)" (?Render@Demo@@UAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__glDisable@4 referenced in function "private: void __thiscall Demo::RenderButton(void)" (?RenderButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__glDrawArrays@12 referenced in function "private: void __thiscall Demo::RenderButton(void)" (?RenderButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__glEnable@4 referenced in function "private: void __thiscall Demo::RenderButton(void)" (?RenderButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__glGenTextures@8 referenced in function "private: void __thiscall Demo::InitButton(void)" (?InitButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__glPixelStorei@8 referenced in function "private: void __thiscall Demo::InitText(void)" (?InitText@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__glTexImage2D@36 referenced in function "private: void __thiscall Demo::InitButton(void)" (?InitButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__glTexParameteri@12 referenced in function "private: void __thiscall Demo::InitButton(void)" (?InitButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp__glViewport@16 referenced in function "public: virtual void __thiscall Demo::Render(void)" (?Render@Demo@@UAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp____glewActiveTexture referenced in function "private: void __thiscall Demo::RenderButton(void)" (?RenderButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp____glewBindBuffer referenced in function "private: void __thiscall Demo::InitButton(void)" (?InitButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp____glewBufferData referenced in function "private: void __thiscall Demo::InitButton(void)" (?InitButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp____glewBufferSubData referenced in function "private: void __thiscall Demo::RenderText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,float,float,float,struct glm::tvec3<float,0>)" (?RenderText@Demo@@AAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MMMU?$tvec3@M$0A@@glm@@@Z)
-Demo.obj : error LNK2019: unresolved external symbol __imp____glewGenBuffers referenced in function "private: void __thiscall Demo::InitButton(void)" (?InitButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp____glewEnableVertexAttribArray referenced in function "private: void __thiscall Demo::InitButton(void)" (?InitButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp____glewGetUniformLocation referenced in function "public: virtual void __thiscall Demo::Render(void)" (?Render@Demo@@UAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp____glewUniform1i referenced in function "private: void __thiscall Demo::RenderButton(void)" (?RenderButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp____glewUniform3f referenced in function "private: void __thiscall Demo::RenderText(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,float,float,float,struct glm::tvec3<float,0>)" (?RenderText@Demo@@AAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MMMU?$tvec3@M$0A@@glm@@@Z)
-Demo.obj : error LNK2019: unresolved external symbol __imp____glewUniformMatrix4fv referenced in function "public: virtual void __thiscall Demo::Render(void)" (?Render@Demo@@UAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp____glewVertexAttribPointer referenced in function "private: void __thiscall Demo::InitButton(void)" (?InitButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp____glewBindVertexArray referenced in function "private: void __thiscall Demo::InitButton(void)" (?InitButton@Demo@@AAEXXZ)
-Demo.obj : error LNK2019: unresolved external symbol __imp____glewGenVertexArrays referenced in function "private: void __thiscall Demo::InitButton(void)" (?InitButton@Demo@@AAEXXZ)
-Game.obj : error LNK2019: unresolved external symbol __imp__glewInit@0 referenced in function "public: void __thiscall Engine::Game::Start(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,unsigned int,unsigned int,bool,enum WindowFlag,unsigned int,float)" (?Start@Game@Engine@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@II_NW4WindowFlag@@IM@Z)
-Game.obj : error LNK2019: unresolved external symbol __imp____glewAttachShader referenced in function __catch$?BuildShader@Game@Engine@@IAEIPBD00@Z$0
-Game.obj : error LNK2019: unresolved external symbol __imp____glewCompileShader referenced in function __catch$?BuildShader@Game@Engine@@IAEIPBD00@Z$0
-Game.obj : error LNK2019: unresolved external symbol __imp____glewCreateProgram referenced in function __catch$?BuildShader@Game@Engine@@IAEIPBD00@Z$0
-Game.obj : error LNK2019: unresolved external symbol __imp____glewCreateShader referenced in function __catch$?BuildShader@Game@Engine@@IAEIPBD00@Z$0
-Game.obj : error LNK2019: unresolved external symbol __imp____glewDeleteShader referenced in function __catch$?BuildShader@Game@Engine@@IAEIPBD00@Z$0
-Game.obj : error LNK2019: unresolved external symbol __imp____glewGetProgramInfoLog referenced in function "private: void __thiscall Engine::Game::CheckShaderErrors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?CheckShaderErrors@Game@Engine@@AAEXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Game.obj : error LNK2019: unresolved external symbol __imp____glewGetProgramiv referenced in function "private: void __thiscall Engine::Game::CheckShaderErrors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?CheckShaderErrors@Game@Engine@@AAEXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Game.obj : error LNK2019: unresolved external symbol __imp____glewGetShaderInfoLog referenced in function "private: void __thiscall Engine::Game::CheckShaderErrors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?CheckShaderErrors@Game@Engine@@AAEXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Game.obj : error LNK2019: unresolved external symbol __imp____glewGetShaderiv referenced in function "private: void __thiscall Engine::Game::CheckShaderErrors(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?CheckShaderErrors@Game@Engine@@AAEXIV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Game.obj : error LNK2019: unresolved external symbol __imp____glewLinkProgram referenced in function __catch$?BuildShader@Game@Engine@@IAEIPBD00@Z$0
-Game.obj : error LNK2019: unresolved external symbol __imp____glewShaderSource referenced in function __catch$?BuildShader@Game@Engine@@IAEIPBD00@Z$0
-Game.obj : error LNK2019: unresolved external symbol __imp____glewUseProgram referenced in function "protected: void __thiscall Engine::Game::UseShader(unsigned int)" (?UseShader@Game@Engine@@IAEXI@Z)
-D:\Kuliah\Snake Game\vs\Snake Game\Debug\Snake Game.exe : fatal error LNK1120: 46 unresolved externals
+  Snake Game.vcxproj -> D:\Kuliah\Snake Game\vs\Snake Game\Debug\Snake Game.exe

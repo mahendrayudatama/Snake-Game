@@ -47,6 +47,7 @@ public:
 	virtual void Render();
 	virtual void gameOver(SDL_Renderer* renderer, SDL_Event event, int scale, int wScale, int tailLength);
 	virtual void youWin(SDL_Renderer* renderer, SDL_Event event, int scale, int wScale, int tailLength);
+
 private:
 	void InitText();
 	void RenderText(string text, GLfloat x, GLfloat y, GLfloat scale, vec3 color);
@@ -54,6 +55,11 @@ private:
 	void RenderButton();
 	void renderA();
 	void renderGame();
+	pair<int, int> getFoodSpawn(vector<int> tailX, vector<int> tailY, int playerX, int playerY, int scale, int wScale, int tailLength);
+	bool checkCollision(int foodx, int foody, int playerx, int playery);
+	void renderScore(SDL_Renderer* renderer, int tailLength, int scale, int wScale);
+	void renderFood(SDL_Renderer* renderer, SDL_Rect food);
+	void renderPlayer(SDL_Renderer* renderer, SDL_Rect player, int x, int y, int scale, vector<int> tailX, vector<int> tailY, int tailLength);
 	
 	map<GLchar, Character> Characters;
 	GLuint texture[NUM_BUTTON], hover_texture[NUM_BUTTON], VBO, VBO2, VAO, VAO2, program;
